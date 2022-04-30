@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Ravikumar",
+      "lastName": "gunji",
+      "fav_language": "javascript",
+      "vehicle1": "car",
+      "vehicle2": "",
+      "vehicle3": ""
+    },
+    {
+      "id": "2",
+      "firstName": "venkat",
+      "lastName": "lolla",
+      "fav_language": "html",
+      "vehicle1": "car",
+      "vehicle2": "bike",
+      "vehicle3": ""
+    },
+    {
+      "firstName": "venkat",
+      "lastName": "lolla",
+      "fav_language": "js",
+      "vehicle3": "boat",
+      "id": "LWOsQ8c"
+    }
+  ]
+}
