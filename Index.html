@@ -7,52 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="http://localhost:3000/students/" method="post" target="_blank">
-        <label for="firstName">first name</label>
-        <input type="text" name="firstName" id="firstName" >
-        <label for="lastName">lastName</label>
-        <input type="text" name="lastName" id="lastName" >
-        <p>what is your favarite language?</p>
-        <label for="html">HTML</label>
-        <input type="radio" name="fav_language" id="html" value="html" >
-        <label for="css">CSS</label>
-        <input type="radio" name="fav_language" id="css" value="css">
-        <label for="js">javascript</label>
-        <input type="radio" name="fav_language" id="js" value="js">
-        <p>what vehicles do you have?</p>
-        <label for="vehicle1">car</label>
-        <input type="checkbox" name="vehicle1" id="vehicle1" value="car" >
-        <label for="vehicle2">bike</label>
-        <input type="checkbox" name="vehicle2" id="vehicle2" value="bike" >
-        <label for="vehicle3">boat</label>
-        <input type="checkbox" name="vehicle3" id="vehicle3" value="boat" >
+  <form action="http://localhost:3000/students/">
+    <label for="firstName">firstName</label>
+    <input id="firstName" name="firstName"><br>
+    <label for="lastName">lastName</label>
+    <input id="lastName" name="lastName">
+    <p>What is your favourite lanvgage?</p>
+    
+    <input type="radio" id="html" name="fav_language" value="html">
+    <label for="html">html</label>
+   
+    <input type="radio" id="css" name="fav_language" value="css">
+    <label for="css">css</label>
+    
+    <input type="radio" id="javascript" name="fav_language" value="javascript">
+    <label for="javascript">javascript</label>
 
-        <input type="submit" value="submit">
-    </form>
+    <p>do you have vehicle?</p>
+    
+    <input type="checkbox" id="car" name="vehicle1" value="car">
+    <label for="car">car</label>
+   
+    <input type="checkbox" id="bike" name="vehicle2" value="bike">
+    <label for="bike">bike</label>
+    
+    <input type="checkbox" id="boat" name="vehicle3" value="boat">
+    <label for="boat">boat</label>
 
-    <form action="http://localhost:3000/students/" method="put" target="_blank">
-        <label for="id">id</label>
-        <input type="number" name="id" id="id" >
-        <label for="firstName">first name</label>
-        <input type="text" name="firstName" id="firstName" >
-        <label for="lastName">lastName</label>
-        <input type="text" name="lastName" id="lastName" >
-        <p>what is your favarite language?</p>
-        <label for="html">HTML</label>
-        <input type="radio" name="fav_language" id="html" value="html" >
-        <label for="css">CSS</label>
-        <input type="radio" name="fav_language" id="css" value="css">
-        <label for="js">javascript</label>
-        <input type="radio" name="fav_language" id="js" value="js">
-        <p>what vehicles do you have?</p>
-        <label for="vehicle1">car</label>
-        <input type="checkbox" name="vehicle1" id="vehicle1" value="car" >
-        <label for="vehicle2">bike</label>
-        <input type="checkbox" name="vehicle2" id="vehicle2" value="bike" >
-        <label for="vehicle3">boat</label>
-        <input type="checkbox" name="vehicle3" id="vehicle3" value="boat" >
-
-        <input type="submit" value="submit">
-    </form>
+    <input type="submit" value="submit" >
+  </form>
 </body>
 </html>
