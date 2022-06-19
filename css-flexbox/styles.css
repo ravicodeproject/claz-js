@@ -1,0 +1,60 @@
+.child1{
+    background-color: red;
+    width: 100px;
+    height: 100px;    
+    float:left;
+}
+
+.child2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.child3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    clear: left;
+    float: left;
+}
+
+.child4{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.child5{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    clear:right;
+}
+
+.child-a{
+    position: absolute;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+.child-b{
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.flex-container div{
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
